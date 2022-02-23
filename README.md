@@ -71,9 +71,10 @@ System_Byte_array *ArrayDetectEmulator_ffano(System_String_o *id)
 ## Como usar em Apk-Script?
 
 ```cpp
+Pattern          : 0A 00 A0 E3 92 96 DA EB 00 50 A0 E1 90 00 9F E5 
 Address          : 0x2D54F00
 Hex Modificação  : 00 F0 20 E3
-Hex Restauração  : 05 00 A0 E1 | não precisa utilizar a restauração..
+Hex Restauração  : 0A 00 A0 E3 | não precisa utilizar a restauração..
 ```
 + Lembrando, Ative nesta tela para funcionar
 
