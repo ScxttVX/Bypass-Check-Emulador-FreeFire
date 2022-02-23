@@ -9,3 +9,7 @@ Funcional na Versão: 1.69.X
 
 Criador do código: Scott / GodsTeam!
 Discord: https://discord.gg/YXmRxRDUXp
+
++ Como esse bypass de `Emulador`
+
+  ![image-EqUqPa1](https://i.imgur.com/EqUqPa1.png)
