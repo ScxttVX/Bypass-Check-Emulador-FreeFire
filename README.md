@@ -36,7 +36,7 @@ Bom, após ter reconhecido a query 10 como um emulador. Logo a baixo tem uma ver
 + Simples né?
 + Mas agora oque devemos fazer para informar que não somos um emulador?
 + É bem simples, vamos construir nosso código..
-+ Antes irei explicar uma coisa pra vocês sobre lógica de operadores.
++ Antes irei explicar uma coisa pra vocês sobre lógica do operador que iremos usar.
 + Neste caso iremos usar `!` na lógica essa exclamação é informando que seria um `"NÃO"` segue um exemplo abaixo
 + Vamos usar uma bool como exemplo.
 
