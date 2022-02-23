@@ -54,3 +54,11 @@ System_Byte_array *ArrayDetectEmulator_ffano(System_String_o *id)
 
 //Hookando a função
 MSHookFunction((void *) getRealOffset(0x2D54EB4), (void *) &ArrayDetectEmulator_ffano);
+
+
+//Para usar em com MemoryPatch
+MemoryPatch BypassEmulador = MemoryPatch("libil2cpp.so", 0x2D54F34, "\x00\xF0\x20\xE3", 4);  BypassEmulador.Modify();  
+
+//Para usar em apk-script
+// Alteração no hex: 00 F0 20 E3
+// Backup para desativar: 05 00 A0 E1
