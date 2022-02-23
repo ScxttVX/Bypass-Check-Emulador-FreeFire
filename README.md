@@ -7,7 +7,7 @@ Funcional na Versão: 1.69.X
 - Espero que a garena não faça uma correção e vocês façam um bom aproveitamente.
 - Basta incluir a il2cpp.h no projeto de vocês
 
-Créditos: GodsTeam!
+## Todos os créditos é da GodsTeam!
 ### Autor: Scxtt#0001
 ### Equipe: GodsTeam
 Discord: [Discord Oficial - GodsTeam](https://discord.gg/YXmRxRDUXp)
