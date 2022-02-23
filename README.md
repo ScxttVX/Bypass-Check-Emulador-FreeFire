@@ -52,7 +52,7 @@ System_Byte_array *ArrayDetectEmulator_ffano(System_String_o *id)
     const char* StringLiteral_25778 = "GetEmpty";
     System_String_o *EmulatorCheck = GCloud_AnoSDK_AnoSDK_Ioctl(10, CreateString(StringLiteral_25777));
 
-    //veja aqui.. A lógica citada em cima da exclamação seria para informar que +
+    // veja aqui.. A lógica citada em cima da exclamação seria para informar que +
     // if ( !System_String_IsNullOrEmpty(EmulatorCheck) ) EmulatorCheck seria a StringLiteral_25778
     // simplesmente revertemos a verificação de "TRUE" para "FALSE" com a exclamação.
     
