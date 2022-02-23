@@ -72,4 +72,4 @@ MemoryPatch BypassEmulador = MemoryPatch("libil2cpp.so", 0x2D54F34, "\x00\xF0\x2
 Pattern          : 0A 00 A0 E3 92 96 DA EB 00 50 A0 E1 90 00 9F E5 
 Address          : 0x2D54F00
 Hex Modificação  : 00 F0 20 E3
-Hex Restauração  : 05 00 A0 E1 | não precisa utilizar a restauração..
+Hex Restauração  : 0A 00 A0 E3 | não precisa utilizar a restauração..
