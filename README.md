@@ -15,6 +15,6 @@ Discord: https://discord.gg/YXmRxRDUXp
 + Ele é uma "CONEXÃO" entre `libanogs.so` com a `libil2cpp.so` digamos que seria uma "QUERY" que são conectada uma a outra.. 
 + Ela está na il2cpp em `public enum AnoSDKIoctlCMD` veja abaixo
 
-![image-eptHYhE](https://i.imgur.com/eptHYhE.png)
+  ![image-eptHYhE](https://i.imgur.com/eptHYhE.png)
   
 + Veja que a "QUERY" é uma informação 
