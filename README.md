@@ -7,8 +7,11 @@ Funcional na Versão: 1.69.X
 - Espero que a garena não faça uma correção e vocês façam um bom aproveitamente.
 - Basta incluir a il2cpp.h no projeto de vocês
 
-Criador do código: Scott / GodsTeam!
-Discord: https://discord.gg/YXmRxRDUXp
+Créditos: GodsTeam!
+### Autor: Scxtt#0001
+### Equipe: GodsTeam
+Discord: [Discord Oficial - GodsTeam](https://discord.gg/YXmRxRDUXp)
+
 
 ## Como esse bypass de `Emulador` funciona?
 + Veja bem, apos nos ir até o local da address `[0x2D54EB4]` encontraremos a primeira informação, informando que nos somos um `EMULADOR` que no caso seria `GCloud_AnoSDK_AnoSDK__Ioctl(10, StringLiteral_28851);`, você deve se perguntar. Mas oque seria esse número 10?
@@ -92,3 +95,5 @@ Hex Modificação  : 1F 20 03 D5
 + Bypass ativado
 
 ![image-unknown](https://media.discordapp.net/attachments/944537033706209290/946065009480450108/unknown.png)
+
+### Divirta-se!!!!
