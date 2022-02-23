@@ -19,8 +19,8 @@ Discord: https://discord.gg/YXmRxRDUXp
   
 + Veja que a "QUERY 10" é um informando que "É EMULADOR" traduzido de "inglês" para português!
 
-`IsEmulator = 10`
-`StringLiteral_28851 = files_dir=/data/data/com.dts.freefireth/files|wait=1`
+- `IsEmulator = 10`
+- `StringLiteral_28851 = files_dir=/data/data/com.dts.freefireth/files|wait=1`
 
 + Bom, após ter reconhecido a query 10 como um emulador. Logo a baixo tem uma verificação se a string é `NULL` ou `EM BRANCO` que no caso seria `empty`
 +  
