@@ -25,6 +25,42 @@ Discord: https://discord.gg/YXmRxRDUXp
 Bom, após ter reconhecido a query 10 como um emulador. Logo a baixo tem uma verificação se a string é `NULL` ou `EM BRANCO` que no caso seria `empty`
 + `if ( System_String__IsNullOrEmpty(v2) )`
 + Essa if é uma checagem se caso `GCloud_AnoSDK_AnoSDK__Ioctl(10, StringLiteral_28851)` não for `em branco -> (empty) ou null` eu serei um emulador
-+ Vejamos que aqui se inicia a verificação
++ Vejamos que aqui se inicia a verificação, segue a img abaixo.
 
 ![image-C6hHzBZ](https://i.imgur.com/C6hHzBZ.png)
+
++ Simples né?
++ Mas agora oque devemos fazer para informar que não somos um emulador?
++ É bem simples, vamos construir nosso código..
++ Antes irei explicar uma coisa pra vocês sobre lógica de operadores.
++ Neste caso iremos usar `!` na lógica essa exclamação é informando que seria um `"NÃO"` segue um exemplo abaixo
++ Vamos usar uma bool como exemplo.
+
+```cpp
+bool test = false;
+if( !test ){
+   retornando ela mesmo estando false
+}
+```
++ Eu não irei entrar em detalhe mas repare bem oque ela está fazendo :)
++ É dessa forma que estamos anulando a verificação do emulador em nosso bypass
++ Vamos ao código agora.
+```cpp
+System_Byte_array *ArrayDetectEmulator_ffano(System_String_o *id)
+{
+    const char* StringLiteral_25777 = "files_dir=/data/data/com.dts.freefireth/files|wait=1";
+    const char* StringLiteral_25778 = "GetEmpty";
+    System_String_o *EmulatorCheck = GCloud_AnoSDK_AnoSDK_Ioctl(10, CreateString(StringLiteral_25777));
+
+    //veja aqui.. A lógica citada em cima da exclamação seria para informar que +
+    // if ( !System_String_IsNullOrEmpty(EmulatorCheck) ) EmulatorCheck seria a StringLiteral_25778
+    // simplesmente revertemos a verificação de "TRUE" para "FALSE" com a exclamação.
+    
+    if ( !System_String_IsNullOrEmpty(EmulatorCheck) )
+        EmulatorCheck = CreateString(StringLiteral_25778);
+    // então a if não iria fazer a checagem e logo iria informar que é um Empty = mobile
+
+    return GCommon_Checker_SendToServer(EmulatorCheck, id);
+}
+```
+
