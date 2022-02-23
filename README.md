@@ -68,3 +68,17 @@ System_Byte_array *ArrayDetectEmulator_ffano(System_String_o *id)
 }
 ```
 
+## Como usar em Apk-Script?
+
+```cpp
+Address          : 0x2D54F00
+Hex Modificação  : 00 F0 20 E3
+Hex Restauração  : 05 00 A0 E1 | não precisa utilizar a restauração..
+```
++ Lembrando, Ative nesta tela para funcionar
+
+![image-unknown](https://media.discordapp.net/attachments/944537033706209290/946064937854320680/unknown.png)
+
++ Bypass ativado
+
+![image-unknown](https://media.discordapp.net/attachments/944537033706209290/946065009480450108/unknown.png)
