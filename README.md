@@ -14,6 +14,6 @@ Discord: https://discord.gg/YXmRxRDUXp
 + Veja bem, apos nos ir até o local da address `[0x2D54EB4]` encontraremos a primeira informação, informando que nos somos um `EMULADOR` que no caso seria `GCloud_AnoSDK_AnoSDK__Ioctl(10, StringLiteral_28851);`, você deve se perguntar. Mas oque seria esse número 10?
 + Ele é uma "CONEXÃO" entre `libanogs.so` com a `libil2cpp.so` digamos que seria uma "QUERY" que são conectada uma a outra.. 
 + Ela está na il2cpp em `public enum AnoSDKIoctlCMD` veja abaixo
-  ![image-eptHYhE](https://i.imgur.com/eptHYhE.png)
+![image-eptHYhE](https://i.imgur.com/eptHYhE.png)
   
 + Veja que a "QUERY" é uma informação 
