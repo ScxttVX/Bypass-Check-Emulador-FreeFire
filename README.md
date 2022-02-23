@@ -26,4 +26,5 @@ Bom, após ter reconhecido a query 10 como um emulador. Logo a baixo tem uma ver
 + `if ( System_String__IsNullOrEmpty(v2) )`
 + Essa if é uma checagem se caso `GCloud_AnoSDK_AnoSDK__Ioctl(10, StringLiteral_28851)` não for `em branco -> (empty) ou null` eu serei um emulador
 + Vejamos que aqui se inicia a verificação
-  ![image-C6hHzBZ](https://i.imgur.com/C6hHzBZ.png)
+
+![image-C6hHzBZ](https://i.imgur.com/C6hHzBZ.png)
