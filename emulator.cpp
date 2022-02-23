@@ -8,13 +8,13 @@
 
 #include "il2cpp.h"
 
-// Namespace : GCommon.Checker
-// classe    : public static class KCMDEGKOPGO
-// Address   : byte[] NPLKBIKNMLH(string GOFEKMEBGDA, string LODDOINFPPA) { } // RVA: 0x2B55108
-System_Byte_array *GCommon_Checker_SendToServer(System_String_o *ixSuUGM, System_String_o *nvOf_b_)
+// Namespace : System
+// classe    : public sealed class String :
+// Address   : CreateString(sbyte* value) { } // RVA: 0x3772CE4
+static System_String_o *CreateString(const char *str)
 {
-    System_Byte_array *(*_SendToServer)(System_String_o *ixSuUGM, System_String_o *nvOf_b_) = (System_Byte_array*(*)(System_String_o*,System_String_o*))getRealOffset(0x2B55108);
-    return _SendToServer(ixSuUGM, nvOf_b_);
+    System_String_o *(*_CreateString)(void *_this, const char *str) = (System_String_o*(*)(void*, const char*))getRealOffset(0x3772CE4);
+    return _CreateString(NULL, str);
 }
 
 // Namespace : System
@@ -24,6 +24,15 @@ bool System_String_IsNullOrEmpty(System_String_o *value)
 {
     bool (*_IsNullOrEmpty)(System_String_o *value) = (bool(*)(System_String_o*))getRealOffset(0x376E290);
     return _IsNullOrEmpty(value);
+}
+
+// Namespace : GCommon.Checker
+// classe    : public static class KCMDEGKOPGO
+// Address   : byte[] NPLKBIKNMLH(string GOFEKMEBGDA, string LODDOINFPPA) { } // RVA: 0x2B55108
+System_Byte_array *GCommon_Checker_SendToServer(System_String_o *ixSuUGM, System_String_o *nvOf_b_)
+{
+    System_Byte_array *(*_SendToServer)(System_String_o *ixSuUGM, System_String_o *nvOf_b_) = (System_Byte_array*(*)(System_String_o*,System_String_o*))getRealOffset(0x2B55108);
+    return _SendToServer(ixSuUGM, nvOf_b_);
 }
 
 // Namespace : GCloud.AnoSDK
