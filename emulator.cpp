@@ -66,7 +66,7 @@ MSHookFunction((void *) getRealOffset(0x2D54EB4), (void *) &ArrayDetectEmulator_
 
 
 //Para usar com MemoryPatch
-MemoryPatch BypassEmulador = MemoryPatch("libil2cpp.so", 0x2D54F34, "\x00\xF0\x20\xE3", 4);  BypassEmulador.Modify();  
+MemoryPatch BypassEmulador = MemoryPatch("libil2cpp.so", 0x2D54F00, "\x00\xF0\x20\xE3", 4);  BypassEmulador.Modify();  
 
 // Utilizar em Apk-Script's
 Pattern          : 0A 00 A0 E3 92 96 DA EB 00 50 A0 E1 90 00 9F E5 
